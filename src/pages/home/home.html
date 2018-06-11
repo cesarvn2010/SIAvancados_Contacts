@@ -23,10 +23,10 @@
         </p>
         <ion-row>
           <ion-col no-padding>
-              <button ion-button full (click)="ligar()">Ligar</button>
+              <button ion-button full (click)="ligar({{contact?.phoneNumbers.}})">Ligar</button>
           </ion-col>
           <ion-col no-padding>
-              <button ion-button color="secondary" (click)="enviarEmail()">Enviar email</button>
+              <button ion-button color="secondary" (click)="enviarEmail({{contact?.emails}})">Enviar email</button>
           </ion-col>
         </ion-row>
       </ion-item>

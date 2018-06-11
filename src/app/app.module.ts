@@ -8,6 +8,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { Contacts } from '@ionic-native/contacts';
 import { CallNumber } from '@ionic-native/call-number';
+import { EmailComposer } from '@ionic-native/email-composer';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { CallNumber } from '@ionic-native/call-number';
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     Contacts,
-    CallNumber
+    CallNumber,
+    EmailComposer
   ]
 })
 export class AppModule {}
