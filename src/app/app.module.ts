@@ -7,6 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { Contacts } from '@ionic-native/contacts';
+import { CallNumber } from '@ionic-native/call-number';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { Contacts } from '@ionic-native/contacts';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    Contacts
+    Contacts,
+    CallNumber
   ]
 })
 export class AppModule {}

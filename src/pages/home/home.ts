@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Contacts, ContactFieldType, IContactFindOptions } from '@ionic-native/contacts';
 import { NavController } from 'ionic-angular';
+import { CallNumber } from '@ionic-native/call-number';
 
 @Component({
   selector: 'page-home',
